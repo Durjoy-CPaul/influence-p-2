@@ -189,4 +189,23 @@ header {
 
 }
 
-/* @media only screen and (max-width:688px) */
+@media only screen and (max-width:576px) {
+    header {
+        flex-direction: column-reverse;
+        align-items: center;
+
+
+    }
+
+    .header-discription {
+        padding: 18px;
+        text-align: center;
+    }
+
+    .companies,
+    .popular-collection,
+    .last-article {
+        display: none;
+    }
+
+}
