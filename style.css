@@ -189,7 +189,7 @@ header {
 
 }
 
-@media only screen and (max-width:688px) {
+@media only screen and (max-width:576px) {
     header {
         flex-direction: column-reverse;
         align-items: center;
@@ -235,6 +235,30 @@ header {
 
     .companies-name {
         width: 100%;
+    }
+
+    .popular-collection {
+        width: 100%;
+    }
+
+    .collection-title {
+        font-size: 16px;
+    }
+
+    .collections {
+        display: block;
+    }
+
+    .last-article {
+        flex-direction: column-reverse;
+        width: 100%;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .last-article-img img {
+        width: 299px;
+        height: 188px;
     }
 
     /* .popular-collection,
