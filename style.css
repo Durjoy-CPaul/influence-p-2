@@ -189,7 +189,7 @@ header {
 
 }
 
-@media only screen and (max-width:576px) {
+@media only screen and (max-width:688px) {
     header {
         flex-direction: column-reverse;
         align-items: center;
@@ -197,15 +197,49 @@ header {
 
     }
 
+
     .header-discription {
         padding: 18px;
         text-align: center;
     }
 
-    .companies,
-    .popular-collection,
+
+
+    .header-img img {
+        width: 202px;
+        height: 190px;
+
+        background-size: 257px;
+
+    }
+
+    .header-title {
+        font-size: 28px;
+    }
+
+    .header-article {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    .companies {
+        margin: 10px;
+    }
+
+    .company-img img {
+        width: 58px;
+        height: 17px;
+        padding: 20px 15px;
+        margin: 0;
+    }
+
+    .companies-name {
+        width: 100%;
+    }
+
+    /* .popular-collection,
     .last-article {
         display: none;
-    }
+    } */
 
 }
