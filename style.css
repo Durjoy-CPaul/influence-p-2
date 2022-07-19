@@ -85,6 +85,10 @@ header {
 }
 
 /* collections style  */
+.popular-collection {
+    margin-bottom: 70px;
+}
+
 .collections {
     display: grid;
     grid-template-columns: repeat(3, 329px);
