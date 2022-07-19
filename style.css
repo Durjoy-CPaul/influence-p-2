@@ -11,12 +11,14 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .header-title {
 
     font-size: 52px;
     font-weight: 700;
+    margin-top: 90px;
 }
 
 .body {
