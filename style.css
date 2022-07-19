@@ -85,11 +85,21 @@ header {
 }
 
 /* collections style  */
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 329px);
+    grid-gap: 20px;
+    justify-content: center;
+
+}
+
 .collection {
     width: 329px;
     height: 476px;
-    border: 1px solid green;
-    box-shadow: 10px 10px 10px -90px black;
+
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0px auto;
+
 
 }
 
