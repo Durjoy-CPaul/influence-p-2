@@ -87,6 +87,8 @@ header {
 /* collections style  */
 .popular-collection {
     margin-bottom: 80px;
+    width: 1047px;
+    margin: 0 auto;
 }
 
 .collections {
@@ -94,6 +96,7 @@ header {
     grid-template-columns: repeat(3, 329px);
     grid-gap: 20px;
     justify-content: center;
+
 
 }
 
@@ -149,4 +152,39 @@ header {
 
 .filled {
     color: #FB8200;
+}
+
+.see_more {
+    color: #E02C6D;
+    text-align: right;
+}
+
+/* last item */
+
+.last-article {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1110px;
+    margin: 100px auto;
+    align-items: center;
+
+
+
+}
+
+.last-article-img {
+    padding-right: 30px;
+}
+
+.last-article-des h2 {
+    font-size: 38px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.last-article-des p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #6C6C6C;
+    padding-right: ;
 }
