@@ -21,17 +21,13 @@ header {
     margin-top: 90px;
 }
 
-.body {
-    width: 1440px;
-}
-
 .header-article {
     font-size: 16px;
     font-weight: 600;
 }
 
 .header-img img {
-    background-image: url("images/Circle\ design.svg");
+    background-image: url("images/Circle design.svg");
     background-position: center;
     width: 440px;
     height: 414px;
@@ -57,4 +53,33 @@ header {
 
 .links i {
     color: white;
+}
+
+/* companys style
+ */
+
+.companies {
+    border-top: 1px solid #aaaaaa2f;
+
+    border-bottom: 1px solid #aaaaaa2f;
+    margin: 70px 165px;
+
+
+}
+
+
+.companies-name {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.company-img img {
+    width: 84px;
+    height: 25.28px;
+    padding: 44px 35px 40px;
+    margin: 0;
 }
